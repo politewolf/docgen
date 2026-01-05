@@ -9,7 +9,7 @@ OSDoc Generator is an intelligent tool that analyzes your codebase and generates
 - 🤖 **8 Specialized AI Agents**: File Structure, Dependencies, Patterns, Flows, Schemas, Architecture, Security, and **Repository KPI** (NEW!).
 - 🔍 **RAG-Powered Queries**: Query your architecture docs with natural language using FREE local embeddings (TF-IDF + Graph-based retrieval).
 - 📊 **Repository Health Dashboard**: LLM-powered KPI analysis with actionable insights on code quality, testing, architecture health, and technical debt.
-- 🔍 **RAG Vector Search + Hybrid Retrieval**: Semantic similarity search (FREE local TF-IDF or cloud providers) combined with dependency graph analysis - finds files by meaning AND structure. [See docs →](docs/VECTOR_SEARCH.md)
+- 🔍 **RAG Vector Search + Hybrid Retrieval**: Semantic similarity search (FREE local TF-IDF or cloud providers) combined with dependency graph analysis - finds files by meaning AND structure.
 - 💾 **JSON-First Architecture** (v0.3.37+): All agent outputs stored as JSON with Markdown as rendered views—enable fast local queries, multi-format exports, and zero-LLM-cost lookups.
 - ⚡ **Generation Performance Metrics**: Track agent execution times, token usage, costs, and confidence scores in metadata.
 - 🌍 **17 Languages Out-of-the-Box**: TypeScript, Python, Java, Go, C#, C/C++, Kotlin, PHP, Ruby, Rust, Scala, Swift, CSS, HTML, JSON, XML, Flex/ActionScript.
@@ -140,7 +140,7 @@ This project supports **17 programming and markup languages** out-of-the-box wit
 
 Need support for a language not listed? **No code changes required!**
 
-Add custom language configurations via `.archdoc.config.json`:
+Add custom language configurations via:
 
 ```json
 {
